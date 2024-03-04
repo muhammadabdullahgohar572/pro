@@ -10,10 +10,8 @@ import Mongoose from "../../img/Skill/mongoose.webp";
 import Git from "../../img/Skill/Git/Git-Icon-1788C (convert.io).webp";
 import Github from "../../img/Skill/Git/25231 (convert.io).webp";
 import Netlify from "../../img/Skill/Git/netlify-logo-svg-vector (convert.io).webp";
-
+import Resume from "../../pdf/Resume.pdf";
 export const Contact = () => {
-
-
   return (
     <>
       <header className="bg-blue-500 text-white p-4">
@@ -22,7 +20,9 @@ export const Contact = () => {
 
       <main className="container mx-auto mt-8">
         <section className="mb-8 sm:container sm:mx-auto sm:px-[5%]">
-          <h2 className="text-2xl font-semibold mb-4 sm:m-0 mx-[5%]">Personal Information</h2>
+          <h2 className="text-2xl font-semibold mb-4 sm:m-0 mx-[5%]">
+            Personal Information
+          </h2>
           <div className="p-4 bg-white shadow-md">
             <p>
               <strong>Name:</strong> Muhammad Abdullah Gohar
@@ -45,6 +45,16 @@ export const Contact = () => {
             <p>
               <strong>Occupation:</strong> Full Stack Developer
             </p>
+            <span>
+              <a href={Resume}>
+                <strong>Live Resume </strong>
+              </a>
+            </span>
+            <span>
+              <a href={Resume} download={Resume}>
+                Download Resume
+              </a>
+            </span>
           </div>
         </section>
 
@@ -62,16 +72,14 @@ export const Contact = () => {
               alt="html"
               className="w-[70%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center ml-[10%]"
             />
-            
           </div>
-         
+
           <div>
             <img
               src={css}
               alt=""
               className="sm:w-[49%]  w-[40%]  sm:h-[95%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center sm:m-0 ml-[22%] mb-[10%] mt-[10%] "
             />
-            
           </div>
           <div>
             <img
@@ -79,7 +87,6 @@ export const Contact = () => {
               alt=""
               className="w-[40%] sm:w-[70%] sm:m-0 ml-[22%] mb-[10%] mt-[15%] sm:h-[95%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center "
             />
-            
           </div>
 
           <div>
@@ -88,7 +95,6 @@ export const Contact = () => {
               alt=""
               className="sm:w-[40%] w-[40%] sm:m-0 ml-[22%] mb-[10%] mt-[15%] sm:h-[90%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center sm:ml-0 "
             />
-            
           </div>
           <div>
             <img
@@ -96,7 +102,6 @@ export const Contact = () => {
               alt=""
               className="w-[50%] sm:h-[90%] sm:m-0 ml-[22%] mb-[10%] mt-[10%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center sm:ml-0 "
             />
-            
           </div>
 
           <div>
@@ -105,11 +110,8 @@ export const Contact = () => {
               alt=""
               className="w-[50%] sm:m-0 ml-[22%] mb-[10%] mt-[10%] sm:h-[90%]  hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110   text-align: center justify-content: center  align-items: center sm:ml-0"
             />
-            
           </div>
         </section>
-
-
 
         <section className="mb-8 sm:ml-0 ml-[10%] sm:container text-center justify-center  sm:grid sm:grid-cols-6 sm:mx-auto sm:px-[5%] ">
           <div>
@@ -118,16 +120,14 @@ export const Contact = () => {
               alt="html"
               className="w-[70%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center ml-[10%]"
             />
-            
           </div>
-         
+
           <div>
             <img
               src={MongoDb}
               alt=""
               className="sm:w-[49%]  w-[40%]  sm:h-[95%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center sm:m-0 ml-[22%] mb-[10%] mt-[10%] "
             />
-            
           </div>
           <div>
             <img
@@ -135,7 +135,6 @@ export const Contact = () => {
               alt=""
               className="w-[40%] sm:w-[70%] sm:m-0 ml-[22%] mb-[10%] mt-[15%] sm:h-[95%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center "
             />
-            
           </div>
 
           <div>
@@ -144,7 +143,6 @@ export const Contact = () => {
               alt=""
               className="sm:w-[40%] w-[40%] sm:m-0 ml-[22%] mb-[10%] mt-[15%] sm:h-[90%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center sm:ml-0 "
             />
-            
           </div>
           <div>
             <img
@@ -152,7 +150,6 @@ export const Contact = () => {
               alt=""
               className="w-[50%] sm:h-[90%] sm:m-0 ml-[22%] mb-[10%] mt-[10%] hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110  duration-300 text-align: center justify-content: center  align-items: center sm:ml-0 "
             />
-            
           </div>
 
           <div>
@@ -161,20 +158,10 @@ export const Contact = () => {
               alt=""
               className="w-[50%] sm:m-0 ml-[22%] mb-[10%] mt-[10%] sm:h-[90%]  hover:drop-shadow-2xl hover:transition  hover:ease-in-out   hover:delay-150 hover:-translate-y-1 hover:scale-110   text-align: center justify-content: center  align-items: center sm:ml-0"
             />
-            
           </div>
         </section>
 
-
-
-
-
-
-
-
-
-
-        <section className="mb-8 mt-[10%]  container mx-auto sm:px-[5%] ">
+        {/* <section className="mb-8 mt-[10%]  container mx-auto sm:px-[5%] ">
           <h2 className="text-2xl font-semibold mb-4 sm:m-0 mx-[5%]">Contact Form</h2>
           <form className="p-4 bg-white shadow-md">
             <label className="block mb-2">
@@ -189,7 +176,7 @@ export const Contact = () => {
               Send Message
             </button>
           </form>
-        </section>
+        </section> */}
       </main>
 
       <footer className="bg-gray-800 text-white p-4 mt-8">
